@@ -1,0 +1,23 @@
+/*Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`.*/ 
+
+@media screen and(max-width: 980px) {
+        body{
+            width: 70% ; 
+            margin: 10px 300px 0px 20px ; 
+          
+
+        }
+
+
+}
+  /* 1.   top   right  bottom  left */ 
+            /*2.  having trouble understanding WHAT they 
+            want us to put in the media query? like which
+            rules for the body, or for any of our elements do they want? 
+            do they want us to media query the body? 
+            or all elements in the css file? to match that page? 
+            3.can only  ONE rule for what goes inside the body
+            be present? 
+            3.2 can it have 2 "attributes" or "rules" like how i have above? 
+            3.3which takes specificity? 
+            3.4 or should a media query have only ONE like width: 70% ; and thats all? */ 

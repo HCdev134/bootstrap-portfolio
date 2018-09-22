@@ -1,0 +1,102 @@
+body{
+    background-image: url("../images/what-the-hex.png");
+    margin: 0 ;
+    padding: 0 ; 
+}
+.jumbotron{
+    font-family: 'Oswald', sans-serif, 'Roboto', sans-serif; 
+    font-weight: bolder ; 
+    font-stretch: semi-expanded ; 
+    margin-bottom: 0 ; 
+    background-image: url("../images/asphalt-highway_4460x4460.jpg");
+    background-size: cover ;
+    color: #000000 ; 
+    padding-bottom: 100px ; 
+    padding-top: 5vh ; 
+
+    
+}
+.topnav1{
+    font-family: 'Lato', sans-serif ;
+    background-color: #4aaaa5 ;  
+    opacity: 0.9 ; 
+    overflow: hidden ;
+    padding: 50px 0px 0px 20px ; 
+    margin-top: 0px ; 
+    z-index: 100 ;
+}
+
+.topnav1 a{
+    float: right ; 
+    padding: 17px 19px ; 
+    text-decoration: none ; 
+    text-transform: capitalize ;
+    color: white ; 
+    font-weight: bolder ; 
+
+}
+.topnav1 a#icon {
+    float: left ; 
+    text-decoration: none ; 
+}
+.topnav1 a#icon:hover {
+    opacity: 0.8 ; 
+    background-color: rgb(253, 127, 63) ;
+    text-transform: capitalize ; 
+    text-decoration: none ; 
+}
+.topnav1 a:hover{
+
+    background-color: #B27C5F ; 
+    color: black ; 
+    border-radius: 8px ;
+}
+
+header div.jumbotron {
+    margin: 0 ; 
+}
+.bottom-footer{
+    width:100% ; 
+    margin: auto ; 
+    padding: 75px 10px 75px 10px ; 
+    background-color: #B27C5F ;
+    opacity: 0.9 ; 
+    border-radius: 10px ; 
+}
+/* trying to pseudocode the weird hanging colors and 
+remove padding, will try matching perfect descendant selectors
+.card{
+    margin-bottom: 0 ; 
+    padding: 0 ; 
+    overflow-y: hidden ; 
+}
+.card-img-top{
+    overflow-y: hidden ; 
+    margin-bottom: 0 ; 
+    padding: 0 ; 
+}*/
+.form-container{
+    padding-top: 100px ; 
+    padding-bottom: 100px ; 
+    margin-top: 25px ; 
+    margin-bottom: 25px ; 
+}
+.bottom-footer a{
+    display: block ;
+    float: right ; 
+    padding: 12px 15px ; 
+    text-align: center ; 
+    text-decoration: none ; 
+    text-transform: capitalize ; 
+    color: #000 ; 
+    border: 2px dashed #4aaaa5; 
+}
+.bottom-footer a:hover{
+ background-color: #4aaaa5;; 
+}
+.label-push-left{
+    padding-left: 200px ; 
+}
+form{
+    font-weight: bold ; 
+}
