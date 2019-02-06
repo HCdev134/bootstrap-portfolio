@@ -3,7 +3,7 @@ body{
     margin: 0 ;
     padding: 0 ; 
 }
-.jumbotron{
+.jumbotron-ovr{
     font-family: 'Oswald', sans-serif, 'Roboto', sans-serif; 
     font-weight: bolder ; 
     font-stretch: semi-expanded ; 
@@ -16,6 +16,21 @@ body{
 
     
 }
+.portfo-greeting{
+    width: 90% ; 
+    margin: auto; 
+    text-decoration: none ; 
+    border: 3px solid black ; 
+    border-radius: 10px; 
+    box-shadow: 1px 2px 10px rgb(160, 51, 51);
+   
+}
+.portfo-greeting:hover{
+    text-decoration: underline;
+    text-decoration-color: #e7b79b ; 
+
+ 
+}
 .topnav1{
     font-family: 'Lato', sans-serif ;
     background-color: #4aaaa5 ;  
@@ -23,7 +38,7 @@ body{
     overflow: hidden ;
     padding: 50px 0px 0px 20px ; 
     margin-top: 0px ; 
-    z-index: 100 ;
+    
 }
 
 .topnav1 a{
@@ -35,6 +50,7 @@ body{
     font-weight: bolder ; 
 
 }
+
 .topnav1 a#icon {
     float: left ; 
     text-decoration: none ; 
@@ -91,6 +107,20 @@ remove padding, will try matching perfect descendant selectors
     color: #000 ; 
     border: 2px dashed #4aaaa5; 
 }
+#container-heading{
+    padding: 17px;
+    margin-bottom: 100px ; 
+
+}
+#newr{
+    padding: 10px ;
+    
+    background-color: #4aaaa5 ; 
+    color: black ; 
+    margin-bottom: 17px ; 
+    
+}
+
 .bottom-footer a:hover{
  background-color: #4aaaa5;; 
 }

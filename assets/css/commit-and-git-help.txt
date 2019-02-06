@@ -1,0 +1,6 @@
+help with commiting new changes and working on PAGES clones. 
+
+sometimes the PAGES clones fails
+
+
+commits on multiple changes to files 
